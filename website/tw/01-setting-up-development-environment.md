@@ -16,7 +16,7 @@ title: 開始
 brew install llvm lld qemu
 ```
 
-此外，你需要將 LLVM binutils 添加到你的 PATH 中：
+此外，你需要將 LLVM binutils 添加到 PATH 中：
 
 ```
 $ export PATH="$PATH:$(brew --prefix)/opt/llvm/bin"
@@ -32,7 +32,7 @@ $ which llvm-objcopy
 sudo apt update && sudo apt install -y clang llvm lld qemu-system-riscv32 curl
 ```
 
-另外，下載 OpenSBI（將其視為 PC 的 BIOS/UEFI）：
+並下載 OpenSBI（將其視為 PC 的 BIOS/UEFI）：
 
 ```
 curl -LO https://github.com/qemu/qemu/raw/v8.0.4/pc-bios/opensbi-riscv32-generic-fw_dynamic.bin
@@ -48,7 +48,7 @@ curl -LO https://github.com/qemu/qemu/raw/v8.0.4/pc-bios/opensbi-riscv32-generic
 
 ### 其他 OS 的使用者
 
-如果你使用的是其他作系統，請取得以下工具：
+如果你使用的是其他作業系統，請取得以下工具：
 
 - `bash`: shell。通常它是預設安裝的。
 - `tar`: 通常是預設安裝的。請使用 GNU 而不是 BSD 版本。
